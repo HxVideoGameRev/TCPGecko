@@ -1,0 +1,53 @@
+
+
+7/7/2016 7:39:48 PM: Opened log
+7:39:48 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 631
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at GeckoApp.MemoryViewer.Update(Boolean fast) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemViewer.cs:line 136
+Inner Exception: 
+7:39:58 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 525
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at TCPTCPGecko.TCPGecko.peek(UInt32 address) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 1400
+   at GeckoApp.MemoryViewer.CellSelectionChange(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemViewer.cs:line 338
+Inner Exception: 
+7:40:03 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 525
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at TCPTCPGecko.TCPGecko.peek(UInt32 address) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 1400
+   at GeckoApp.MemoryViewer.CellSelectionChange(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemViewer.cs:line 338
+Inner Exception: 
+7:40:03 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 525
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at TCPTCPGecko.TCPGecko.peek(UInt32 address) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 1400
+   at GeckoApp.MemoryViewer.CellSelectionChange(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemViewer.cs:line 338
+Inner Exception: 
+8:21:47 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 631
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at TCPTCPGecko.TCPGecko.peek(UInt32 address) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 1400
+   at GeckoApp.MainForm.AddThread(UInt32 tempThreadAddress) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 606
+   at GeckoApp.MainForm.PopulateThreads(UInt32 os_ver) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 593
+   at GeckoApp.MainForm.CTCPGecko_Click(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 550
+Inner Exception: 
+8:24:24 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 631
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at TCPTCPGecko.TCPGecko.peek(UInt32 address) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 1400
+   at GeckoApp.MainForm.PopulateThreads(UInt32 os_ver) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 586
+   at GeckoApp.MainForm.CTCPGecko_Click(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 550
+Inner Exception: 

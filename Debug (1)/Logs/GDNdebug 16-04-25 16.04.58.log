@@ -1,0 +1,10 @@
+
+
+8/25/2016 4:04:58 PM: Opened log
+4:04:58 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream[] saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 525
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Stream saveStream) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 492
+   at GeckoApp.MemoryViewer.Update(Boolean fast) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemViewer.cs:line 136
+Inner Exception: 

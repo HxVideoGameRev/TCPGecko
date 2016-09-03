@@ -1,0 +1,22 @@
+
+
+7/13/2016 1:05:15 PM: Opened log
+1:05:15 PM: Exception occured!
+Message: Exception of type 'TCPTCPGecko.ETCPGeckoException' was thrown.
+Stack Trace: 
+   at TCPTCPGecko.TCPGecko.Dump(UInt32 startdump, UInt32 enddump, Dump memdump) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\TCPGecko.cs:line 769
+   at GeckoApp.MemSearch.SafeDump(UInt32 startdump, UInt32 enddump, Dump memdump) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemSearch.cs:line 1591
+Inner Exception: 
+1:15:31 PM: Exception occured!
+Message: No row can be added to a DataGridView control that does not have columns. Columns must be added first.
+Stack Trace: 
+   at System.Windows.Forms.DataGridViewRowCollection.AddInternal(Boolean newRow, Object[] values)
+   at GeckoApp.MainForm.AddThread(UInt32 tempThreadAddress) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 635
+   at GeckoApp.MainForm.PopulateThreads(UInt32 os_ver) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 593
+   at GeckoApp.MainForm.CTCPGecko_Click(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 550
+   at GeckoApp.ExceptionHandler.HandleExceptionInternally(ETCPGeckoException exc) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\ExceptionHandler.cs:line 71
+   at GeckoApp.ExceptionHandler.HandleException(ETCPGeckoException exc) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\ExceptionHandler.cs:line 30
+   at GeckoApp.MemSearch.SafeDump(UInt32 startdump, UInt32 enddump, Dump memdump) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemSearch.cs:line 1596
+   at GeckoApp.MemSearch.SearchRefactored(UInt32 sAddress, UInt32 eAddress, List`1 comparisons, SearchSize searchSize) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MemSearch.cs:line 1482
+   at GeckoApp.MainForm.Search_Click(Object sender, EventArgs e) in f:\Crap\Desktop Crap\newgecko\tcp-gecko-dotnet-master\Gecko dNet\MainForm.cs:line 957
+Inner Exception: 
